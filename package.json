@@ -16,7 +16,8 @@
     "secrets:worktree": "node scripts/check-secrets.mjs worktree",
     "secrets:staged": "node scripts/check-secrets.mjs staged",
     "secrets:history": "node scripts/check-secrets.mjs history",
-    "test:security": "node --test scripts/tests/*.test.mjs"
+    "test:security": "node --test scripts/tests/*.test.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs"
   },
   "devDependencies": {
     "oxfmt": "catalog:",

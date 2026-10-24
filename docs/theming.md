@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/theming.md) · [繁體中文](i18n/zh-Hant/docs/theming.md) · [日本語](i18n/ja-JP/docs/theming.md) · [Español](i18n/es-ES/docs/theming.md) · [Português (Brasil)](i18n/pt-BR/docs/theming.md) · [Русский](i18n/ru-RU/docs/theming.md) · [Deutsch](i18n/de-DE/docs/theming.md) · [Français](i18n/fr-FR/docs/theming.md) · [Italiano](i18n/it-IT/docs/theming.md)
+
 # Theming
 
 Every OpenNavo app offers three appearance choices: **System** (the default), **Light** and **Dark**. This page is

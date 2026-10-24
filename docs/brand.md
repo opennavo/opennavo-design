@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/brand.md) · [繁體中文](i18n/zh-Hant/docs/brand.md) · [日本語](i18n/ja-JP/docs/brand.md) · [Español](i18n/es-ES/docs/brand.md) · [Português (Brasil)](i18n/pt-BR/docs/brand.md) · [Русский](i18n/ru-RU/docs/brand.md) · [Deutsch](i18n/de-DE/docs/brand.md) · [Français](i18n/fr-FR/docs/brand.md) · [Italiano](i18n/it-IT/docs/brand.md)
+
 # Brand
 
 OpenNavo Design is shared by a family of apps. They share everything except a thin brand layer, so a person who knows

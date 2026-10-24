@@ -1,0 +1,142 @@
+{
+  "sourceLanguage": "en-US",
+  "locales": ["en-US", "zh-CN", "zh-Hant", "ja-JP", "es-ES", "pt-BR", "ru-RU", "de-DE", "fr-FR", "it-IT"],
+  "translationStatus": "machine-assisted draft; technical review required",
+  "sources": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2a6a0c1da89a84ebfcd9063a53900fe130287750791e58684b922b7f65541150",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e46069fd729b3c2611e2a9c6600940facdc20314a718eb2c29e0950664a147d4",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "9b0e92efcc9058601a9c5bb29300f739cd98ca78499cd1be190e37a702b392fa",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7213f145f4b9c2f67216ee28bd3e5390deb60d6816bd4ed0bde4a8af5e5d9602",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "32e482a9899754d1043efac1a9bb4fe8432024b5f60f23e44dc006a7da7ea943",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "sha256": "c9f916bc2c106f40ad19ac42d2cbbaeffdcc6e79c3c57b7315d89934a4ee7fb9",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "e90abcc3727c18a2977173710955566888a3ba60462116b915293d28f16921b0",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/accessibility.md",
+      "sha256": "86f552a17434b5258aa40e250c30212b7035e7e82e4fb96a339644a2abc04850",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/adoption.md",
+      "sha256": "453a2d07ccb279b2116c1752bb5b99580b0b0a33984ef4632c8e6d83d64907c6",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/brand.md",
+      "sha256": "8c8dd912ba2f12ba01378c81ecb35319da5844e2b9cb5c580615b31227e2e026",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/color.md",
+      "sha256": "d4f0aeb713f2aa2f01945b1e9efbfe8d90a03796bbe12d4c9a92c16b0aa9bd24",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/components.md",
+      "sha256": "f99e5d9bcd6d9903c9f269d5812db0136729a8aa384962b6ec12c4a244d92a19",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/content.md",
+      "sha256": "7a3719210633be28e94b9f84c8c3b1ed00fd7b4841367d74430c889bf94b81aa",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/iconography.md",
+      "sha256": "b79840c411a56fa23f6c3f14d011692719135c292a0797fa1ea67f93ad08bfe7",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/layout.md",
+      "sha256": "a572457e6c54a8d6c606e61be6379feba071a3fff13cc962d5bd2ad7ff7a1c2a",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/motion.md",
+      "sha256": "c21e5ce28763de42cc28eafe194d6ab79f346d6f6f7953c933ac52b85b9d0fad",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/patterns.md",
+      "sha256": "577a5618c8386d30c788f6a8a44edb66438b3db5932cd70fabbe272af73fa1db",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/platforms.md",
+      "sha256": "0e19e5e6ba99616b5d61f219e73d8077a39a4353ab7a559780e86ba99e183e70",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/principles.md",
+      "sha256": "60cb31a5297352a72a3addb8e61c5c9da57229cccacaf13a31ed367664e86cf8",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/reference/tokens.md",
+      "sha256": "5201a2fa7c305d2bce092a015a41e1cb081c02fc2ece1190b1ab5ba3e5e2b6ee",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/theming.md",
+      "sha256": "b793670bc76e68fa9083a36e772c7917f9696501348265fee69d59779f451943",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "docs/typography.md",
+      "sha256": "7badd4641b4b14839f9d650c3f657b62c6152e708c7b4e8b611513a7700b3d86",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "packages/flutter/README.md",
+      "sha256": "0e430457db891d1ff96f1e147c7051796599dc038a38706860161f39991cfdb3",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "packages/swift/README.md",
+      "sha256": "c948ccb8c5fbab66cda0acc3b683e2703da6c6f431f9b610be0ffce98beeb9f2",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "packages/tokens/README.md",
+      "sha256": "99f28c967671b8c9e526a9da031ff1bf4317fd70a973758adde131d5b1106ede",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "packages/vue/README.md",
+      "sha256": "ade97734d5f30719878a9f8c4c724fd6f08ac1e63e670f2176b6549309020023",
+      "translationStatus": "needs-language-review"
+    },
+    {
+      "path": "packages/vue/THIRD_PARTY_NOTICES.md",
+      "sha256": "4d049c40c7972a3b781f3a456a690e31d47981d24179758bb28650281fe231e2",
+      "translationStatus": "needs-language-review"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/motion.md) · [繁體中文](i18n/zh-Hant/docs/motion.md) · [日本語](i18n/ja-JP/docs/motion.md) · [Español](i18n/es-ES/docs/motion.md) · [Português (Brasil)](i18n/pt-BR/docs/motion.md) · [Русский](i18n/ru-RU/docs/motion.md) · [Deutsch](i18n/de-DE/docs/motion.md) · [Français](i18n/fr-FR/docs/motion.md) · [Italiano](i18n/it-IT/docs/motion.md)
+
 # Motion
 
 Motion explains a change; it never decorates. Most of the interface does not animate at all.

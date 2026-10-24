@@ -1,0 +1,57 @@
+[English](../../../typography.md) · **简体中文** · [繁體中文](../../zh-Hant/docs/typography.md) · [日本語](../../ja-JP/docs/typography.md) · [Español](../../es-ES/docs/typography.md) · [Português (Brasil)](../../pt-BR/docs/typography.md) · [Русский](../../ru-RU/docs/typography.md) · [Deutsch](../../de-DE/docs/typography.md) · [Français](../../fr-FR/docs/typography.md) · [Italiano](../../it-IT/docs/typography.md)
+
+> 英文为源文。新增翻译由本机离线工具辅助生成，仍需母语审校；代码和许可证原文保持不变。
+
+# 文字排版
+
+## 字体
+
+应用通过 `@opennavo/design-vue/system-fonts.css` 使用**系统界面字体**——Apple 平台上是 SF Pro，Windows 上是 Segoe UI——中文和日文使用平台自带的中日文字体：
+
+| 语言                                           | 字体栈（system-fonts.css）                                                        |
+| ---------------------------------------------- | --------------------------------------------------------------------------------- |
+| 拉丁字母、西里尔字母                           | `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`                       |
+| 简体中文（`:lang(zh)`）                        | `-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif` |
+| 繁体中文（`:lang(zh-Hant)`、`zh-TW`、`zh-HK`） | `… 'PingFang TC', 'Microsoft JhengHei', sans-serif`                               |
+| 日文（`:lang(ja)`）                            | `… 'Hiragino Sans', 'Yu Gothic', sans-serif`                                      |
+| 代码、版本号、路径                             | `ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace`   |
+
+系统字体与操作系统一致，不需要下载，中日文的渲染效果也最好。令牌中的字体栈（`font.family.*`，以 Inter 开头）是**品牌字体栈**，用在无法使用或不想使用系统字体的地方：生成的分享图、营销插图和组件预览页。在 `<html>` 上设置 `lang`（内容为其他语言的元素也要单独设置），这样才能套用正确的字体栈。
+
+用到 Inter 时，开启 `font-feature-settings: "cv11", "ss01"`（单层结构的 a、另一套数字字形）和 `font-optical-sizing: auto`；`base.css` 已经设置了这两项。
+
+## 字号体系
+
+`text-{name}` 会同时设置字号、行高、字重和字距。请使用这套字号体系；除了下文“小字号”一节列出的紧凑尺寸，不要手动设置字号。
+
+| 类名            | 字号/行高 | 字重 | 字距         | 用途                           |
+| --------------- | --------- | ---- | ------------ | ------------------------------ |
+| `text-hero`     | 76 / 78   | 600  | −0.035em     | 仅用于官网首页主视觉           |
+| `text-section`  | 46 / 50   | 600  | −0.03em      | 官网区块标题                   |
+| `text-display`  | 40 / 44   | 600  | −0.03em      | 功能主视觉标题                 |
+| `text-title1`   | 28 / 34   | 600  | −0.02em      | 页面标题                       |
+| `text-title2`   | 22 / 28   | 600  | −0.02em      | 对话框标题、紧凑的详情页头部   |
+| `text-headline` | 16 / 24   | 600  | −0.01em      | 区块标题、卡片标题             |
+| `text-stat`     | 20 / 26   | 600  | −0.015em     | 统计数值                       |
+| `text-body`     | 14 / 22   | 400  | 0            | 正文                           |
+| `text-body-sm`  | 13 / 20   | 400  | 0            | 列表、表格、设置项             |
+| `text-caption`  | 12 / 18   | 400  | 0            | 次要信息                       |
+| `text-label`    | 11 / 16   | 600  | 0.08em，大写 | 分组标题（侧边栏分组名、眉题） |
+| `text-mono`     | 12 / 18   | 400  | 0            | 命令、版本号、日志             |
+
+在窄屏上，标题沿字号体系逐级下调，而不是随意缩小：首页主视觉在 768 px 以下用 `text-display`，从 768 px 起用 `text-section`，从 1024 px 起用 `text-hero`；功能主视觉标题在 768 px 以下降到 36 px。应用窗口不会小于最小宽度，所以应用内的文字不随窗口缩放。
+
+### 小字号
+
+桌面端的紧凑界面会用到几个中间尺寸，颜色一律使用令牌：紧凑控件和表格单元格用 12.5 px，行下方的元信息用 11.5 px，极小的徽标用 10.5 px。不使用小于 10.5 px 的字号，12 px 以下的文字不承载关键信息。
+
+## 规则
+
+- **数字**：凡是需要对齐或会原地变化的数字（统计数据、表格、进度、计数器、监控），都用 `tabular-nums`。数字、容量和日期按语言区域格式化（[文案](content.md)）。
+- **字重**：正文用 400，控件和分段标签用 500，标题、按钮文字和强调内容用 600。界面中不用 700 及以上的字重。
+- **强调**：句子里的强调用粗体（600），绝不只靠颜色。描述中的行内高亮写作 `**…**`，在次要文字中渲染为字重 600 的 `text-ink-primary`。
+- **大写**只能通过 `text-label` 实现，而且只用于拉丁字母和西里尔字母；中日文不做转换。
+- **行长**：正文每行控制在大约 72 个字符以内（中日文约 40 个字）；主视觉区里的描述最宽约 430 px。
+- **标题**：营销页面上的标题用 `text-wrap: balance` 平衡各行长度；在浏览器支持的情况下，中日文标题在标点处断行，而不是从词语中间断开。
+- **截断**：单行文字过长时用省略号截断，并通过悬停提示或 `title` 显示完整内容；数字和状态绝不截断。
+- **中西文间距**：文案在中日文与拉丁字母或数字之间加一个半角空格（“近 30 天”“下载约 768 MB”），与全角标点相邻时不加。`base.css` 中的 `text-autospace: normal` 只是补上文案漏掉的间距，绝不能代替源文本中的空格。

@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/principles.md) · [繁體中文](i18n/zh-Hant/docs/principles.md) · [日本語](i18n/ja-JP/docs/principles.md) · [Español](i18n/es-ES/docs/principles.md) · [Português (Brasil)](i18n/pt-BR/docs/principles.md) · [Русский](i18n/ru-RU/docs/principles.md) · [Deutsch](i18n/de-DE/docs/principles.md) · [Français](i18n/fr-FR/docs/principles.md) · [Italiano](i18n/it-IT/docs/principles.md)
+
 # Principles
 
 OpenNavo apps manage things people care about on their own computer: what is installed, what runs at login, what

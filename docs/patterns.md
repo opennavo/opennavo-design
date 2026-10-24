@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/patterns.md) · [繁體中文](i18n/zh-Hant/docs/patterns.md) · [日本語](i18n/ja-JP/docs/patterns.md) · [Español](i18n/es-ES/docs/patterns.md) · [Português (Brasil)](i18n/pt-BR/docs/patterns.md) · [Русский](i18n/ru-RU/docs/patterns.md) · [Deutsch](i18n/de-DE/docs/patterns.md) · [Français](i18n/fr-FR/docs/patterns.md) · [Italiano](i18n/it-IT/docs/patterns.md)
+
 # Patterns
 
 How the components combine into screens. Each pattern names the components it uses; their details are in

@@ -1,3 +1,5 @@
+**English** · [简体中文](docs/i18n/zh-CN/CHANGELOG.md) · [繁體中文](docs/i18n/zh-Hant/CHANGELOG.md) · [日本語](docs/i18n/ja-JP/CHANGELOG.md) · [Español](docs/i18n/es-ES/CHANGELOG.md) · [Português (Brasil)](docs/i18n/pt-BR/CHANGELOG.md) · [Русский](docs/i18n/ru-RU/CHANGELOG.md) · [Deutsch](docs/i18n/de-DE/CHANGELOG.md) · [Français](docs/i18n/fr-FR/CHANGELOG.md) · [Italiano](docs/i18n/it-IT/CHANGELOG.md)
+
 # Changelog
 
 ## 0.1.0 — unreleased

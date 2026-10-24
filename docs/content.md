@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/content.md) · [繁體中文](i18n/zh-Hant/docs/content.md) · [日本語](i18n/ja-JP/docs/content.md) · [Español](i18n/es-ES/docs/content.md) · [Português (Brasil)](i18n/pt-BR/docs/content.md) · [Русский](i18n/ru-RU/docs/content.md) · [Deutsch](i18n/de-DE/docs/content.md) · [Français](i18n/fr-FR/docs/content.md) · [Italiano](i18n/it-IT/docs/content.md)
+
 # Content
 
 Words are interface. The same rules apply in every language; English and Simplified Chinese are written first, the

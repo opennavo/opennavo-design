@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/typography.md) · [繁體中文](i18n/zh-Hant/docs/typography.md) · [日本語](i18n/ja-JP/docs/typography.md) · [Español](i18n/es-ES/docs/typography.md) · [Português (Brasil)](i18n/pt-BR/docs/typography.md) · [Русский](i18n/ru-RU/docs/typography.md) · [Deutsch](i18n/de-DE/docs/typography.md) · [Français](i18n/fr-FR/docs/typography.md) · [Italiano](i18n/it-IT/docs/typography.md)
+
 # Typography
 
 ## Typeface

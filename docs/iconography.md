@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/iconography.md) · [繁體中文](i18n/zh-Hant/docs/iconography.md) · [日本語](i18n/ja-JP/docs/iconography.md) · [Español](i18n/es-ES/docs/iconography.md) · [Português (Brasil)](i18n/pt-BR/docs/iconography.md) · [Русский](i18n/ru-RU/docs/iconography.md) · [Deutsch](i18n/de-DE/docs/iconography.md) · [Français](i18n/fr-FR/docs/iconography.md) · [Italiano](i18n/it-IT/docs/iconography.md)
+
 # Iconography
 
 ## Interface icons

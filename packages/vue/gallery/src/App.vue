@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { t, localize } from './i18n';
+import { computed, watchEffect } from 'vue';
 import type { Component } from 'vue';
 import { LOCALES, OnButton, OnIcon, OnMenu, OnSegmented } from '../../src';
 import type { Locale, OnMenuItem, OnSegmentedOption, ThemePreference } from '../../src';
@@ -76,6 +77,10 @@ function selectLocale(key: string) {
 }
 
 const themeIcon = computed(() => (theme.value === 'system' ? 'sun-moon' : theme.value === 'light' ? 'sun' : 'moon'));
+
+watchEffect(() => {
+  document.title = `OpenNavo Design · ${t('Vue component gallery')}`;
+});
 </script>
 
 <template>
@@ -86,23 +91,23 @@ const themeIcon = computed(() => (theme.value === 'system' ? 'sun-moon' : theme.
       >
         <a href="?" class="flex items-baseline gap-10px no-underline">
           <span class="text-headline text-ink-primary">OpenNavo Design</span>
-          <span class="text-body-sm text-ink-tertiary">Vue component gallery</span>
+          <span class="text-body-sm text-ink-tertiary">{{ t('Vue component gallery') }}</span>
         </a>
         <div class="ml-auto flex flex-wrap items-center gap-10px">
           <span class="inline-flex items-center gap-6px text-ink-tertiary">
             <OnIcon :name="themeIcon" :size="15" />
-            <OnSegmented v-model="theme" :options="themes" size="sm" aria-label="Theme" />
+            <OnSegmented v-model="theme" :options="localize(themes)" size="sm" :aria-label="t('Theme')" />
           </span>
-          <OnMenu :items="localeItems" label="Language" align="end" @select="selectLocale">
+          <OnMenu :items="localize(localeItems)" :label="t('Language')" align="end" @select="selectLocale">
             <template #trigger="{ attrs }">
-              <OnButton size="sm" variant="ghost" v-bind="attrs">{{ LOCALE_NAMES[locale] }}</OnButton>
+              <OnButton size="sm" variant="ghost" v-bind="attrs">{{ localize(LOCALE_NAMES[locale]) }}</OnButton>
             </template>
           </OnMenu>
         </div>
       </div>
       <nav
         class="mx-auto flex max-w-1240px flex-wrap gap-x-14px gap-y-6px px-32px pb-10px max-md:px-16px"
-        aria-label="Stories"
+        :aria-label="t('Stories')"
       >
         <a
           v-for="story in stories"
@@ -112,13 +117,13 @@ const themeIcon = computed(() => (theme.value === 'system' ? 'sun-moon' : theme.
           :class="story.name === selectedStory ? 'text-ink-primary' : 'text-ink-tertiary hover:text-ink-primary'"
           :aria-current="story.name === selectedStory ? 'page' : undefined"
         >
-          {{ story.name }}
+          {{ localize(story.name) }}
         </a>
         <a
           href="?"
           class="rounded-tiny text-12px no-underline outline-none focus-visible:shadow-focus-ring"
           :class="selectedStory ? 'text-ink-tertiary hover:text-ink-primary' : 'text-ink-primary'"
-          >All</a
+          >{{ t('All') }}</a
         >
       </nav>
     </header>

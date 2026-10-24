@@ -1,3 +1,5 @@
+**English** · [简体中文](../../docs/i18n/zh-CN/packages/vue/THIRD_PARTY_NOTICES.md) · [繁體中文](../../docs/i18n/zh-Hant/packages/vue/THIRD_PARTY_NOTICES.md) · [日本語](../../docs/i18n/ja-JP/packages/vue/THIRD_PARTY_NOTICES.md) · [Español](../../docs/i18n/es-ES/packages/vue/THIRD_PARTY_NOTICES.md) · [Português (Brasil)](../../docs/i18n/pt-BR/packages/vue/THIRD_PARTY_NOTICES.md) · [Русский](../../docs/i18n/ru-RU/packages/vue/THIRD_PARTY_NOTICES.md) · [Deutsch](../../docs/i18n/de-DE/packages/vue/THIRD_PARTY_NOTICES.md) · [Français](../../docs/i18n/fr-FR/packages/vue/THIRD_PARTY_NOTICES.md) · [Italiano](../../docs/i18n/it-IT/packages/vue/THIRD_PARTY_NOTICES.md)
+
 # Third-party notices
 
 `@opennavo/design-vue` is licensed under the MIT License (see the repository's `LICENSE`). It bundles the

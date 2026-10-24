@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/adoption.md) · [繁體中文](i18n/zh-Hant/docs/adoption.md) · [日本語](i18n/ja-JP/docs/adoption.md) · [Español](i18n/es-ES/docs/adoption.md) · [Português (Brasil)](i18n/pt-BR/docs/adoption.md) · [Русский](i18n/ru-RU/docs/adoption.md) · [Deutsch](i18n/de-DE/docs/adoption.md) · [Français](i18n/fr-FR/docs/adoption.md) · [Italiano](i18n/it-IT/docs/adoption.md)
+
 # Adopting the system in an app
 
 How a new app starts on OpenNavo Design, and how an app that copied OpenNavo's packages earlier moves onto it.

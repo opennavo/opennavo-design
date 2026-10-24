@@ -1,3 +1,5 @@
+**English** · [简体中文](../../docs/i18n/zh-CN/packages/vue/README.md) · [繁體中文](../../docs/i18n/zh-Hant/packages/vue/README.md) · [日本語](../../docs/i18n/ja-JP/packages/vue/README.md) · [Español](../../docs/i18n/es-ES/packages/vue/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/packages/vue/README.md) · [Русский](../../docs/i18n/ru-RU/packages/vue/README.md) · [Deutsch](../../docs/i18n/de-DE/packages/vue/README.md) · [Français](../../docs/i18n/fr-FR/packages/vue/README.md) · [Italiano](../../docs/i18n/it-IT/packages/vue/README.md)
+
 # @opennavo/design-vue
 
 Vue 3 components of OpenNavo Design: buttons and inputs, data display, empty and error states, dialogs, menus, a

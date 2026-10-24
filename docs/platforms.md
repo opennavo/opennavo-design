@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/platforms.md) · [繁體中文](i18n/zh-Hant/docs/platforms.md) · [日本語](i18n/ja-JP/docs/platforms.md) · [Español](i18n/es-ES/docs/platforms.md) · [Português (Brasil)](i18n/pt-BR/docs/platforms.md) · [Русский](i18n/ru-RU/docs/platforms.md) · [Deutsch](i18n/de-DE/docs/platforms.md) · [Français](i18n/fr-FR/docs/platforms.md) · [Italiano](i18n/it-IT/docs/platforms.md)
+
 # Platforms
 
 The same tokens and rules on every platform; this page lists what differs.

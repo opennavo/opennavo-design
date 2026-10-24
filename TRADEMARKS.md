@@ -1,3 +1,5 @@
+**English** · [简体中文](docs/i18n/zh-CN/TRADEMARKS.md) · [繁體中文](docs/i18n/zh-Hant/TRADEMARKS.md) · [日本語](docs/i18n/ja-JP/TRADEMARKS.md) · [Español](docs/i18n/es-ES/TRADEMARKS.md) · [Português (Brasil)](docs/i18n/pt-BR/TRADEMARKS.md) · [Русский](docs/i18n/ru-RU/TRADEMARKS.md) · [Deutsch](docs/i18n/de-DE/TRADEMARKS.md) · [Français](docs/i18n/fr-FR/TRADEMARKS.md) · [Italiano](docs/i18n/it-IT/TRADEMARKS.md)
+
 # Trademarks
 
 The MIT license of this repository covers its code and documentation. It does not grant any rights to the names,

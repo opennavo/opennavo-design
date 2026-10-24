@@ -1,3 +1,5 @@
+**English** · [简体中文](docs/i18n/zh-CN/CONTRIBUTING.md) · [繁體中文](docs/i18n/zh-Hant/CONTRIBUTING.md) · [日本語](docs/i18n/ja-JP/CONTRIBUTING.md) · [Español](docs/i18n/es-ES/CONTRIBUTING.md) · [Português (Brasil)](docs/i18n/pt-BR/CONTRIBUTING.md) · [Русский](docs/i18n/ru-RU/CONTRIBUTING.md) · [Deutsch](docs/i18n/de-DE/CONTRIBUTING.md) · [Français](docs/i18n/fr-FR/CONTRIBUTING.md) · [Italiano](docs/i18n/it-IT/CONTRIBUTING.md)
+
 # Contributing
 
 Thanks for helping. OpenNavo Design is extracted from the OpenNavo apps and is maintained alongside them; changes
@@ -53,3 +55,20 @@ Report vulnerabilities privately using [SECURITY.md](SECURITY.md). Never include
 Use English Conventional Commit messages and English GitHub release titles and notes. Describe what changed,
 why, and which checks actually ran. Do not describe local tests as passing remote CI. API stability is not
 promised before 1.0; document breaking changes in the changelog.
+
+## Translations and previews
+
+English is the source for all ten languages: `en-US`, `zh-CN`, `zh-Hant`, `ja-JP`, `es-ES`, `pt-BR`, `ru-RU`,
+`de-DE`, `fr-FR` and `it-IT`. Component messages live in `packages/vue/src/messages`; gallery messages live in
+`packages/vue/gallery/src/messages`. Translate visible story copy as well as navigation and accessible labels.
+Keep component names, enum values, URLs, code samples and license originals unchanged.
+
+The complete documentation mirrors live in `docs/i18n/<locale>/`, following the English repository paths.
+New translations start as offline machine-assisted drafts and need language review, especially technical and legal
+prose. English remains authoritative. Review the Brazilian Portuguese vocabulary separately from generic Portuguese.
+When English changes, update the corresponding files in every language and then record its SHA-256 in
+`docs/i18n/manifest.json`. Run `pnpm check:i18n` to verify coverage, source freshness, links and code examples.
+Do not update the manifest merely to silence a failure without updating the translations.
+
+README screenshots in `docs/previews` show fictional sample data from the real gallery. Capture them with
+browser-use at the documented theme and language, without browser chrome or personal information.

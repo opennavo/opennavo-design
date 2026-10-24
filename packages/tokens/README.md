@@ -1,3 +1,5 @@
+**English** · [简体中文](../../docs/i18n/zh-CN/packages/tokens/README.md) · [繁體中文](../../docs/i18n/zh-Hant/packages/tokens/README.md) · [日本語](../../docs/i18n/ja-JP/packages/tokens/README.md) · [Español](../../docs/i18n/es-ES/packages/tokens/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/packages/tokens/README.md) · [Русский](../../docs/i18n/ru-RU/packages/tokens/README.md) · [Deutsch](../../docs/i18n/de-DE/packages/tokens/README.md) · [Français](../../docs/i18n/fr-FR/packages/tokens/README.md) · [Italiano](../../docs/i18n/it-IT/packages/tokens/README.md)
+
 # @opennavo/design-tokens
 
 Generated from [`tokens/tokens.json`](../../tokens/tokens.json). Do not edit `dist/`; change the JSON and run

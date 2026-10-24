@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/accessibility.md) · [繁體中文](i18n/zh-Hant/docs/accessibility.md) · [日本語](i18n/ja-JP/docs/accessibility.md) · [Español](i18n/es-ES/docs/accessibility.md) · [Português (Brasil)](i18n/pt-BR/docs/accessibility.md) · [Русский](i18n/ru-RU/docs/accessibility.md) · [Deutsch](i18n/de-DE/docs/accessibility.md) · [Français](i18n/fr-FR/docs/accessibility.md) · [Italiano](i18n/it-IT/docs/accessibility.md)
+
 # Accessibility
 
 The target is WCAG 2.2 AA in both themes. Most of it is built into the tokens and components; this page lists what

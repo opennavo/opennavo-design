@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { t, localize } from '../i18n';
 import { ref } from 'vue';
 import { OnTabs } from '../../../src';
 import type { OnTabItem } from '../../../src';
@@ -18,16 +19,22 @@ const linkItems = items.map(item => ({ ...item, href: `#tabs-${item.value}` }));
 
 <template>
   <StorySection
-    title="Tabs"
+    :title="t('Tabs')"
     components="OnTabs"
-    description="Same-page tabs are a tablist with arrow-key selection; tabs with an href are link navigation with aria-current."
+    :description="
+      t(
+        'Same-page tabs are a tablist with arrow-key selection; tabs with an href are link navigation with aria-current.'
+      )
+    "
   >
-    <StoryRow label="tablist">
-      <div class="w-560px max-w-full"><OnTabs v-model="tab" :items="items" aria-label="Detail tabs" /></div>
-    </StoryRow>
-    <StoryRow label="Link mode">
+    <StoryRow :label="t('tablist')">
       <div class="w-560px max-w-full">
-        <OnTabs model-value="overview" :items="linkItems" aria-label="Detail pages" />
+        <OnTabs v-model="tab" :items="localize(items)" :aria-label="t('Detail tabs')" />
+      </div>
+    </StoryRow>
+    <StoryRow :label="t('Link mode')">
+      <div class="w-560px max-w-full">
+        <OnTabs model-value="overview" :items="localize(linkItems)" :aria-label="t('Detail pages')" />
       </div>
     </StoryRow>
   </StorySection>

@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/color.md) · [繁體中文](i18n/zh-Hant/docs/color.md) · [日本語](i18n/ja-JP/docs/color.md) · [Español](i18n/es-ES/docs/color.md) · [Português (Brasil)](i18n/pt-BR/docs/color.md) · [Русский](i18n/ru-RU/docs/color.md) · [Deutsch](i18n/de-DE/docs/color.md) · [Français](i18n/fr-FR/docs/color.md) · [Italiano](i18n/it-IT/docs/color.md)
+
 # Color
 
 All color comes from tokens. Each color token has a dark value (the default) and, where it differs, a light value;

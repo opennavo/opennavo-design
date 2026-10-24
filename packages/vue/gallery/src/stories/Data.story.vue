@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { t, localize } from '../i18n';
 import { computed, ref } from 'vue';
 import {
   OnAppIcon,
@@ -69,91 +70,101 @@ const details = [
 
 <template>
   <StorySection
-    title="Data display"
+    :title="t('Data display')"
     components="OnProgressMeter · OnLogViewer · OnHBarChart · OnStackBar · OnTable · OnKeyValueList"
-    description="Charts carry a visually hidden table for screen readers; tables and logs virtualize above 200 rows when given a height."
+    :description="
+      t(
+        'Charts carry a visually hidden table for screen readers; tables and logs virtualize above 200 rows when given a height.'
+      )
+    "
   >
-    <StoryRow label="Progress">
+    <StoryRow :label="t('Progress')">
       <div class="flex w-320px max-w-full flex-col gap-12px">
-        <OnProgressMeter :value="62" label="Download" />
-        <OnProgressMeter label="Extract" />
-        <OnProgressMeter :value="30" size="sm" label="Menu bar" />
+        <OnProgressMeter :value="62" :label="t('Download')" />
+        <OnProgressMeter :label="t('Extract')" />
+        <OnProgressMeter :value="30" size="sm" :label="t('Menu bar')" />
       </div>
     </StoryRow>
-    <StoryRow label="Log tail">
-      <OnLogViewer class="w-640px max-w-full" :lines="sampleLog" :tail="5" />
+    <StoryRow :label="t('Log tail')">
+      <OnLogViewer class="w-640px max-w-full" :lines="localize(sampleLog)" :tail="5" />
     </StoryRow>
-    <StoryRow label="Full log">
-      <OnLogViewer class="w-640px max-w-full" :lines="longLog" :height="180" />
+    <StoryRow :label="t('Full log')">
+      <OnLogViewer class="w-640px max-w-full" :lines="localize(longLog)" :height="180" />
     </StoryRow>
-    <StoryRow label="Charts">
+    <StoryRow :label="t('Charts')">
       <OnCard class="w-316px max-w-full">
-        <p class="m-0 text-headline text-ink-primary">Average monthly downloads</p>
-        <p class="m-0 mt-2px text-12px text-ink-tertiary">Fewer new downloads; most people update in the app.</p>
+        <p class="m-0 text-headline text-ink-primary">{{ t('Average monthly downloads') }}</p>
+        <p class="m-0 mt-2px text-12px text-ink-tertiary">
+          {{ t('Fewer new downloads; most people update in the app.') }}
+        </p>
         <OnHBarChart
           class="mt-12px"
-          caption="Average monthly downloads"
-          :items="[
-            { key: '30d', label: 'Last 30 days', value: 17394, display: '17.4K', full: '17,394', emphasis: true },
-            { key: '90d', label: '90-day average', value: 34210, display: '34.2K', full: '34,210' },
-            { key: '365d', label: 'Yearly average', value: 40012, display: '40.0K', full: '40,012' }
-          ]"
+          :caption="t('Average monthly downloads')"
+          :items="
+            localize([
+              { key: '30d', label: 'Last 30 days', value: 17394, display: '17.4K', full: '17,394', emphasis: true },
+              { key: '90d', label: '90-day average', value: 34210, display: '34.2K', full: '34,210' },
+              { key: '365d', label: 'Yearly average', value: 40012, display: '40.0K', full: '40,012' }
+            ])
+          "
         />
       </OnCard>
       <OnCard class="w-316px max-w-full">
         <p class="m-0 text-stat text-ink-primary">18.6 <span class="text-13px text-ink-tertiary">GB</span></p>
         <OnStackBar
           class="mt-12px"
-          caption="Storage"
-          :items="[
-            { key: 'app', label: 'Apps', value: 12.1, display: '12.1 GB' },
-            { key: 'cli', label: 'Command line', value: 4.2, display: '4.2 GB' },
-            { key: 'cache', label: 'Download cache', value: 2.3, display: '2.3 GB' }
-          ]"
+          :caption="t('Storage')"
+          :items="
+            localize([
+              { key: 'app', label: 'Apps', value: 12.1, display: '12.1 GB' },
+              { key: 'cli', label: 'Command line', value: 4.2, display: '4.2 GB' },
+              { key: 'cache', label: 'Download cache', value: 2.3, display: '2.3 GB' }
+            ])
+          "
         />
       </OnCard>
     </StoryRow>
-    <StoryRow label="Table">
+    <StoryRow :label="t('Table')">
       <OnTable
         v-model:sort="sort"
         v-model:selected="selected"
         class="w-full"
-        caption="Library"
-        :columns="columns"
-        :rows="sorted"
+        :caption="t('Library')"
+        :columns="localize(columns)"
+        :rows="localize(sorted)"
         :row-key="row => row.id"
         :selected-key="selectedKey"
         :dimmed="row => Boolean(row.dependency)"
         selectable
         :can-select="row => !row.dependency"
-        select-all-label="Select all"
-        :select-row-label="row => `Select ${row.name}`"
+        :select-all-label="t('Select all')"
+        :select-row-label="row => t('Select {name}', { name: row.name })"
         @row-click="selectedKey = $event"
       >
         <template #cell-name="{ row }">
           <span class="flex items-center gap-10px">
             <OnAppIcon :variant="row.variant" :name="row.name" :src="row.icon" :accent="row.accent" :size="28" />
             <span class="min-w-0">
-              <span class="block font-600 text-ink-primary">{{ row.name }}</span>
-              <span class="block text-11px text-ink-tertiary">{{ row.summary }}</span>
+              <span class="block font-600 text-ink-primary">{{ localize(row.name) }}</span>
+              <span class="block text-11px text-ink-tertiary">{{ localize(row.summary) }}</span>
             </span>
           </span>
         </template>
         <template #cell-variant="{ row }">
-          <OnChip size="md">{{ row.variant === 'app' ? 'App' : 'Command line' }}</OnChip>
+          <OnChip size="md">{{ localize(row.variant === 'app' ? 'App' : 'Command line') }}</OnChip>
         </template>
-        <template #cell-size="{ row }">{{ formatSize(row.size) }}</template>
+        <template #cell-size="{ row }">{{ localize(formatSize(row.size)) }}</template>
         <template #cell-status="{ row }">
-          <OnChip :tone="STATUS[row.status].tone" dot size="md">{{ STATUS[row.status].label }}</OnChip>
+          <OnChip :tone="STATUS[row.status].tone" dot size="md">{{ localize(STATUS[row.status].label) }}</OnChip>
         </template>
         <template #cell-more>
-          <OnMenu :items="menu" variant="ghost" size="sm" />
+          <OnMenu :items="localize(menu)" variant="ghost" size="sm" />
         </template>
       </OnTable>
     </StoryRow>
-    <StoryRow label="Key-value list">
+    <StoryRow :label="t('Key-value list')">
       <OnCard class="w-380px max-w-full">
-        <OnKeyValueList :items="details" />
+        <OnKeyValueList :items="localize(details.map(item => ({ ...item, value: t(item.value) })))" />
       </OnCard>
     </StoryRow>
   </StorySection>

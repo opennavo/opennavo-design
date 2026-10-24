@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/README.md) · [繁體中文](i18n/zh-Hant/docs/README.md) · [日本語](i18n/ja-JP/docs/README.md) · [Español](i18n/es-ES/docs/README.md) · [Português (Brasil)](i18n/pt-BR/docs/README.md) · [Русский](i18n/ru-RU/docs/README.md) · [Deutsch](i18n/de-DE/docs/README.md) · [Français](i18n/fr-FR/docs/README.md) · [Italiano](i18n/it-IT/docs/README.md)
+
 # OpenNavo Design — specification
 
 OpenNavo Design is the design system of the OpenNavo apps: the macOS client (Tauri + Vue), the website (Nuxt) and the

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { t, localize } from '../i18n';
 import { OnButton } from '../../../src';
 import type { OnButtonSize, OnButtonVariant } from '../../../src';
 import StoryRow from '../StoryRow.vue';
@@ -17,26 +18,32 @@ const labels: Record<OnButtonVariant, string> = {
 
 <template>
   <StorySection
-    title="Buttons"
+    :title="t('Buttons')"
     components="OnButton"
-    description="Five variants in four sizes, with pill, icon, icon-only, loading and disabled states. Links render as anchors or through linkAs."
+    :description="
+      t(
+        'Five variants in four sizes, with pill, icon, icon-only, loading and disabled states. Links render as anchors or through linkAs.'
+      )
+    "
   >
-    <StoryRow v-for="variant in variants" :key="variant" :label="variant">
-      <OnButton :variant="variant">{{ labels[variant] }}</OnButton>
-      <OnButton :variant="variant" icon="download">{{ labels[variant] }}</OnButton>
-      <OnButton :variant="variant" shape="round">{{ labels[variant] }}</OnButton>
-      <OnButton :variant="variant" icon="copy" icon-only aria-label="Copy" />
-      <OnButton :variant="variant" loading>{{ labels[variant] }}</OnButton>
-      <OnButton :variant="variant" disabled>{{ labels[variant] }}</OnButton>
+    <StoryRow v-for="variant in variants" :key="variant" :label="localize(variant)">
+      <OnButton :variant="variant">{{ localize(labels[variant]) }}</OnButton>
+      <OnButton :variant="variant" icon="download">{{ localize(labels[variant]) }}</OnButton>
+      <OnButton :variant="variant" shape="round">{{ localize(labels[variant]) }}</OnButton>
+      <OnButton :variant="variant" icon="copy" icon-only :aria-label="t('Copy')" />
+      <OnButton :variant="variant" loading>{{ localize(labels[variant]) }}</OnButton>
+      <OnButton :variant="variant" disabled>{{ localize(labels[variant]) }}</OnButton>
     </StoryRow>
-    <StoryRow label="Sizes xs–lg">
+    <StoryRow :label="t('Sizes xs–lg')">
       <OnButton v-for="size in sizes" :key="size" variant="primary" :size="size" icon="download">
-        Get {{ size }}
+        {{ t('Get') }} {{ size }}
       </OnButton>
     </StoryRow>
-    <StoryRow label="Links and full width">
-      <OnButton href="#Button" shape="round" icon="arrow-up-right">View details</OnButton>
-      <div class="w-240px"><OnButton variant="secondary" block>Add all to library</OnButton></div>
+    <StoryRow :label="t('Links and full width')">
+      <OnButton href="#Button" shape="round" icon="arrow-up-right">{{ t('View details') }}</OnButton>
+      <div class="w-240px">
+        <OnButton variant="secondary" block>{{ t('Add all to library') }}</OnButton>
+      </div>
     </StoryRow>
   </StorySection>
 </template>

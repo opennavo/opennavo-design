@@ -1,3 +1,5 @@
+**English** · [简体中文](docs/i18n/zh-CN/PROVENANCE.md) · [繁體中文](docs/i18n/zh-Hant/PROVENANCE.md) · [日本語](docs/i18n/ja-JP/PROVENANCE.md) · [Español](docs/i18n/es-ES/PROVENANCE.md) · [Português (Brasil)](docs/i18n/pt-BR/PROVENANCE.md) · [Русский](docs/i18n/ru-RU/PROVENANCE.md) · [Deutsch](docs/i18n/de-DE/PROVENANCE.md) · [Français](docs/i18n/fr-FR/PROVENANCE.md) · [Italiano](docs/i18n/it-IT/PROVENANCE.md)
+
 # Source and licensing
 
 OpenNavo Design was extracted and adapted from the shared design tokens and UI

@@ -1,3 +1,5 @@
+**English** · [简体中文](i18n/zh-CN/docs/components.md) · [繁體中文](i18n/zh-Hant/docs/components.md) · [日本語](i18n/ja-JP/docs/components.md) · [Español](i18n/es-ES/docs/components.md) · [Português (Brasil)](i18n/pt-BR/docs/components.md) · [Русский](i18n/ru-RU/docs/components.md) · [Deutsch](i18n/de-DE/docs/components.md) · [Français](i18n/fr-FR/docs/components.md) · [Italiano](i18n/it-IT/docs/components.md)
+
 # Components
 
 Reference for every component in [`@opennavo/design-vue`](../packages/vue): what it is for, its props, events and

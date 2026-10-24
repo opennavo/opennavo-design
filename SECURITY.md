@@ -1,3 +1,5 @@
+**English** · [简体中文](docs/i18n/zh-CN/SECURITY.md) · [繁體中文](docs/i18n/zh-Hant/SECURITY.md) · [日本語](docs/i18n/ja-JP/SECURITY.md) · [Español](docs/i18n/es-ES/SECURITY.md) · [Português (Brasil)](docs/i18n/pt-BR/SECURITY.md) · [Русский](docs/i18n/ru-RU/SECURITY.md) · [Deutsch](docs/i18n/de-DE/SECURITY.md) · [Français](docs/i18n/fr-FR/SECURITY.md) · [Italiano](docs/i18n/it-IT/SECURITY.md)
+
 # Security policy
 
 ## Reporting a vulnerability

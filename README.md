@@ -1,16 +1,30 @@
+**English** · [简体中文](docs/i18n/zh-CN/README.md) · [繁體中文](docs/i18n/zh-Hant/README.md) · [日本語](docs/i18n/ja-JP/README.md) · [Español](docs/i18n/es-ES/README.md) · [Português (Brasil)](docs/i18n/pt-BR/README.md) · [Русский](docs/i18n/ru-RU/README.md) · [Deutsch](docs/i18n/de-DE/README.md) · [Français](docs/i18n/fr-FR/README.md) · [Italiano](docs/i18n/it-IT/README.md)
+
 # OpenNavo Design
 
 The design system behind [OpenNavo](https://opennavo.com) — the free, open-source Homebrew app store for Mac — and the
 apps that follow it. One set of tokens, a written specification and ready-made components, so every app in the family
 looks, reads and behaves the same, in dark and light.
 
-[简体中文](README.zh-CN.md)
+## Preview
+
+### Dark theme
+
+![Dark theme](docs/previews/shell-dark.png)
+
+### Light theme
+
+![Light theme](docs/previews/shell-light.png)
+
+### Components
+
+![Components](docs/previews/components-dark.png)
 
 ## Language and release status
 
 English (`en-US`) is the default component language and the source for translations. The gallery starts in English unless a language was explicitly selected through its URL or saved settings; browser language does not override it. Components also support Simplified Chinese, Traditional Chinese, Japanese, Spanish, Brazilian Portuguese, Russian, German, French and Italian.
 
-Documentation, source comments, developer tooling and GitHub release notes default to English. Chinese documentation is a translation of the English source.
+Documentation, source comments, developer tooling and GitHub release notes default to English. Translated documentation follows the English source.
 
 Version 0.1.0 is an early preview: APIs may change before 1.0, and packages are not published to registries yet. Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
 

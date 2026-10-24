@@ -1,3 +1,5 @@
+**English** · [简体中文](../../docs/i18n/zh-CN/packages/swift/README.md) · [繁體中文](../../docs/i18n/zh-Hant/packages/swift/README.md) · [日本語](../../docs/i18n/ja-JP/packages/swift/README.md) · [Español](../../docs/i18n/es-ES/packages/swift/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/packages/swift/README.md) · [Русский](../../docs/i18n/ru-RU/packages/swift/README.md) · [Deutsch](../../docs/i18n/de-DE/packages/swift/README.md) · [Français](../../docs/i18n/fr-FR/packages/swift/README.md) · [Italiano](../../docs/i18n/it-IT/packages/swift/README.md)
+
 # OpenNavoDesign (SwiftUI)
 
 Swift package with the OpenNavo Design tokens for SwiftUI on macOS 13+ and iOS 16+. The manifest is

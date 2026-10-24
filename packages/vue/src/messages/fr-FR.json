@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Effacer",
+    "retry": "Réessayer"
+  },
+  "chart": {
+    "other": "Autres",
+    "item": "Élément",
+    "value": "Valeur",
+    "share": "Part",
+    "tooltip": "{label} : {value}",
+    "tooltipShare": "{label} : {value} ({share})"
+  },
+  "dialog": {
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "cancel": "Annuler"
+  },
+  "hero": {
+    "action": "Commencer",
+    "viewDetails": "Voir les détails"
+  },
+  "log": {
+    "label": "Journal"
+  },
+  "menu": {
+    "more": "Plus d’actions"
+  },
+  "nav": {
+    "breadcrumb": "Fil d’Ariane",
+    "pagination": "Pagination",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page {page}"
+  },
+  "palette": {
+    "label": "Palette de commandes",
+    "placeholder": "Rechercher ou exécuter une action",
+    "results": "Résultats",
+    "empty": "Aucun résultat correspondant",
+    "loading": "Recherche…",
+    "hintSelect": "↑↓ Sélectionner",
+    "hintOpen": "↵ Ouvrir"
+  },
+  "progress": {
+    "busy": "En cours"
+  },
+  "state": {
+    "loadFailedTitle": "Échec du chargement",
+    "loadFailedDescription": "Le réseau ou le service est temporairement indisponible. Réessayez plus tard.",
+    "offlineTitle": "Hors ligne",
+    "offlineDescription": "Affichage du contenu enregistré. Il se mettra à jour automatiquement dès que vous serez de nouveau en ligne."
+  },
+  "table": {
+    "sortBy": "Trier par {label}"
+  },
+  "toast": {
+    "region": "Notifications",
+    "close": "Fermer la notification"
+  },
+  "topNav": {
+    "label": "Navigation principale",
+    "home": "Accueil {name}",
+    "search": "Rechercher",
+    "download": "Télécharger",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  }
+}

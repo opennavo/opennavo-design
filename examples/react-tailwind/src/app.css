@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+@import '@opennavo/design-tokens/tailwind.css';
+@import '@opennavo/design-tokens/base.css';
+@import '@opennavo/design-tokens/system-fonts.css';

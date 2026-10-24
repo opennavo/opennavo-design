@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Limpar",
+    "retry": "Tentar novamente"
+  },
+  "chart": {
+    "other": "Outro",
+    "item": "Item",
+    "value": "Valor",
+    "share": "Proporção",
+    "tooltip": "{label}: {value}",
+    "tooltipShare": "{label}: {value} ({share})"
+  },
+  "dialog": {
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "hero": {
+    "action": "Começar",
+    "viewDetails": "Ver detalhes"
+  },
+  "log": {
+    "label": "Registro"
+  },
+  "menu": {
+    "more": "Mais ações"
+  },
+  "nav": {
+    "breadcrumb": "Trilha de navegação",
+    "pagination": "Paginação",
+    "previous": "Página anterior",
+    "next": "Próxima página",
+    "page": "Página {page}"
+  },
+  "palette": {
+    "label": "Painel de comandos",
+    "placeholder": "Buscar ou executar uma ação",
+    "results": "Resultados da busca",
+    "empty": "Nenhum resultado correspondente",
+    "loading": "Buscando…",
+    "hintSelect": "↑↓ Selecionar",
+    "hintOpen": "↵ Abrir"
+  },
+  "progress": {
+    "busy": "Em andamento"
+  },
+  "state": {
+    "loadFailedTitle": "Falha ao carregar",
+    "loadFailedDescription": "A rede ou o serviço está temporariamente indisponível. Tente novamente mais tarde.",
+    "offlineTitle": "Offline",
+    "offlineDescription": "Exibindo o conteúdo salvo. Ele será atualizado automaticamente quando houver conexão."
+  },
+  "table": {
+    "sortBy": "Ordenar por {label}"
+  },
+  "toast": {
+    "region": "Notificações",
+    "close": "Fechar notificação"
+  },
+  "topNav": {
+    "label": "Navegação principal",
+    "home": "Página inicial de {name}",
+    "search": "Buscar",
+    "download": "Baixar app",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  }
+}

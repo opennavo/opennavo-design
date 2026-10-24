@@ -1,0 +1,47 @@
+node_modules/
+dist/
+!packages/tokens/dist/
+.DS_Store
+*.log
+coverage/
+.vite/
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+# Dart / Flutter
+.dart_tool/
+packages/flutter/build/
+packages/flutter/pubspec.lock
+
+# Local environment and credentials (keep sanitized examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
+.npmrc
+.pypirc
+.netrc
+
+# Private keys, certificates and signing stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.mobileprovision
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+id_ecdsa
+id_ecdsa.*
+id_dsa
+id_dsa.*

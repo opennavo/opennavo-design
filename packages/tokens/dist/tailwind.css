@@ -1,0 +1,265 @@
+/* Generated from tokens/tokens.json by packages/tokens/scripts/generate.ts; do not edit. After changing tokens.json, run `pnpm gen`. */
+/* Tailwind CSS v4: @import "tailwindcss"; then @import "@opennavo/design-tokens/tailwind.css"; */
+@import './tokens.css';
+
+@theme inline {
+  --color-surface-page: var(--on-surface-page);
+  --color-surface-base: var(--on-surface-base);
+  --color-surface-sidebar: var(--on-surface-sidebar);
+  --color-surface-rail: var(--on-surface-rail);
+  --color-surface-card: var(--on-surface-card);
+  --color-surface-card-alt: var(--on-surface-card-alt);
+  --color-surface-raised: var(--on-surface-raised);
+  --color-surface-chip: var(--on-surface-chip);
+  --color-surface-control: var(--on-surface-control);
+  --color-surface-inset: var(--on-surface-inset);
+  --color-surface-overlay: var(--on-surface-overlay);
+  --color-surface-popover: var(--on-surface-popover);
+  --color-ink-primary: var(--on-text-primary);
+  --color-ink-secondary: var(--on-text-secondary);
+  --color-ink-tertiary: var(--on-text-tertiary);
+  --color-ink-disabled: var(--on-text-disabled);
+  --color-ink-inverse: var(--on-text-inverse);
+  --color-ink-on-accent: var(--on-text-on-accent);
+  --color-ink-accent: var(--on-text-accent);
+  --color-line-subtle: var(--on-border-subtle);
+  --color-line-default: var(--on-border-default);
+  --color-line-strong: var(--on-border-strong);
+  --color-line-sidebar: var(--on-border-sidebar);
+  --color-brand-coral: var(--on-brand-coral);
+  --color-brand-salmon: var(--on-brand-salmon);
+  --color-brand-violet: var(--on-brand-violet);
+  --color-brand-glow-core: var(--on-brand-glow-core);
+  --color-accent-coral-subtle: var(--on-accent-coral-subtle);
+  --color-accent-salmon-subtle: var(--on-accent-salmon-subtle);
+  --color-status-success: var(--on-status-success);
+  --color-status-success-subtle: var(--on-status-success-subtle);
+  --color-status-warning: var(--on-status-warning);
+  --color-status-warning-subtle: var(--on-status-warning-subtle);
+  --color-status-danger: var(--on-status-danger);
+  --color-status-danger-subtle: var(--on-status-danger-subtle);
+  --color-status-info: var(--on-status-info);
+  --color-status-info-subtle: var(--on-status-info-subtle);
+  --color-status-success-border: var(--on-status-success-border);
+  --color-status-warning-border: var(--on-status-warning-border);
+  --color-status-danger-border: var(--on-status-danger-border);
+  --color-status-info-border: var(--on-status-info-border);
+  --color-button-primary-bg: var(--on-button-primary-bg);
+  --color-button-primary-hover: var(--on-button-primary-hover);
+  --color-button-primary-pressed: var(--on-button-primary-pressed);
+  --color-button-primary-text: var(--on-button-primary-text);
+  --color-button-secondary-bg: var(--on-button-secondary-bg);
+  --color-button-secondary-hover: var(--on-button-secondary-hover);
+  --color-button-secondary-pressed: var(--on-button-secondary-pressed);
+  --color-button-secondary-text: var(--on-button-secondary-text);
+  --color-button-accent-bg: var(--on-button-accent-bg);
+  --color-button-accent-hover: var(--on-button-accent-hover);
+  --color-button-accent-pressed: var(--on-button-accent-pressed);
+  --color-button-accent-text: var(--on-button-accent-text);
+  --color-button-disabled-bg: var(--on-button-disabled-bg);
+  --color-button-disabled-text: var(--on-button-disabled-text);
+  --color-chart-series1: var(--on-chart-series1);
+  --color-chart-series2: var(--on-chart-series2);
+  --color-chart-series3: var(--on-chart-series3);
+  --color-chart-emphasis: var(--on-chart-emphasis);
+  --color-chart-deemphasis: var(--on-chart-deemphasis);
+  --color-chart-grid: var(--on-chart-grid);
+  --color-chart-axis: var(--on-chart-axis);
+  --color-component-search-bg: var(--on-component-search-bg);
+  --color-component-card-hover: var(--on-component-card-hover);
+  --color-component-toggle-track: var(--on-component-toggle-track);
+  --color-component-toggle-knob: var(--on-component-toggle-knob);
+  --color-component-toggle-knob-on: var(--on-component-toggle-knob-on);
+  --color-component-tab-indicator: var(--on-component-tab-indicator);
+  --color-component-nav-active: var(--on-component-nav-active);
+  --color-component-hero-bg: var(--on-component-hero-bg);
+  --color-component-caption-bg: var(--on-component-caption-bg);
+  --color-component-top-nav-scrolled: var(--on-component-top-nav-scrolled);
+  --color-component-scrim: var(--on-component-scrim);
+  --color-component-lightbox-scrim: var(--on-component-lightbox-scrim);
+  --color-component-modal-bg: var(--on-component-modal-bg);
+  --color-component-toast-bg: var(--on-component-toast-bg);
+  --color-component-item-active: var(--on-component-item-active);
+  --color-component-running-border: var(--on-component-running-border);
+  --color-component-log-heading: var(--on-component-log-heading);
+  --color-component-log-success: var(--on-component-log-success);
+  --color-component-mono-text: var(--on-component-mono-text);
+  --color-component-timeline-line: var(--on-component-timeline-line);
+  --color-component-timeline-dot: var(--on-component-timeline-dot);
+  --color-component-source-meta: var(--on-component-source-meta);
+  --color-component-collection-from: var(--on-component-collection-from);
+  --color-component-collection-to: var(--on-component-collection-to);
+  --color-component-collection-ring: var(--on-component-collection-ring);
+  --color-component-detail-header-bg: var(--on-component-detail-header-bg);
+  --color-component-cli-icon-from: var(--on-component-cli-icon-from);
+  --color-component-cli-icon-to: var(--on-component-cli-icon-to);
+  --color-component-cli-icon-text: var(--on-component-cli-icon-text);
+  --color-component-letter-icon-text: var(--on-component-letter-icon-text);
+  --color-component-segment-active: var(--on-component-segment-active);
+  --color-component-menu-bar-bg: var(--on-component-menu-bar-bg);
+  --color-component-menu-bar-text: var(--on-component-menu-bar-text);
+  --color-macos-close: var(--on-macos-close);
+  --color-macos-minimize: var(--on-macos-minimize);
+  --color-macos-zoom: var(--on-macos-zoom);
+  --radius-tiny: var(--on-radius-tiny);
+  --radius-small: var(--on-radius-small);
+  --radius-default: var(--on-radius-default);
+  --radius-panel: var(--on-radius-panel);
+  --radius-big: var(--on-radius-big);
+  --radius-huge: var(--on-radius-huge);
+  --radius-xl: var(--on-radius-xl);
+  --radius-full: var(--on-radius-full);
+  --radius-app-icon: var(--on-radius-app-icon);
+  --shadow-window: var(--on-shadow-window);
+  --shadow-popover: var(--on-shadow-popover);
+  --shadow-modal: var(--on-shadow-modal);
+  --shadow-toast: var(--on-shadow-toast);
+  --shadow-float-icon: var(--on-shadow-float-icon);
+  --shadow-app-icon: var(--on-shadow-app-icon);
+  --shadow-icon-text: var(--on-shadow-icon-text);
+  --shadow-focus-ring: var(--on-shadow-focus-ring);
+  --shadow-segment: var(--on-shadow-segment);
+  --shadow-knob: var(--on-shadow-knob);
+  --font-sans: var(--on-font-family-sans);
+  --font-sans-zh: var(--on-font-family-sans-zh);
+  --font-sans-ja: var(--on-font-family-sans-ja);
+  --font-mono: var(--on-font-family-mono);
+  --ease-standard: var(--on-motion-easing-standard);
+  --ease-emphasized: var(--on-motion-easing-emphasized);
+  --ease-exit: var(--on-motion-easing-exit);
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1440px;
+}
+
+@utility duration-fast {
+  transition-duration: var(--on-motion-duration-fast);
+}
+
+@utility duration-base {
+  transition-duration: var(--on-motion-duration-base);
+}
+
+@utility duration-slow {
+  transition-duration: var(--on-motion-duration-slow);
+}
+
+@utility z-base {
+  z-index: var(--on-z-index-base);
+}
+
+@utility z-sticky {
+  z-index: var(--on-z-index-sticky);
+}
+
+@utility z-dropdown {
+  z-index: var(--on-z-index-dropdown);
+}
+
+@utility z-overlay {
+  z-index: var(--on-z-index-overlay);
+}
+
+@utility z-modal {
+  z-index: var(--on-z-index-modal);
+}
+
+@utility z-popover {
+  z-index: var(--on-z-index-popover);
+}
+
+@utility z-toast {
+  z-index: var(--on-z-index-toast);
+}
+
+@utility z-tooltip {
+  z-index: var(--on-z-index-tooltip);
+}
+
+@utility text-hero {
+  font-size: var(--on-typography-hero-size);
+  line-height: var(--on-typography-hero-line-height);
+  font-weight: var(--on-typography-hero-weight);
+  letter-spacing: var(--on-typography-hero-letter-spacing);
+}
+
+@utility text-section {
+  font-size: var(--on-typography-section-size);
+  line-height: var(--on-typography-section-line-height);
+  font-weight: var(--on-typography-section-weight);
+  letter-spacing: var(--on-typography-section-letter-spacing);
+}
+
+@utility text-display {
+  font-size: var(--on-typography-display-size);
+  line-height: var(--on-typography-display-line-height);
+  font-weight: var(--on-typography-display-weight);
+  letter-spacing: var(--on-typography-display-letter-spacing);
+}
+
+@utility text-title1 {
+  font-size: var(--on-typography-title1-size);
+  line-height: var(--on-typography-title1-line-height);
+  font-weight: var(--on-typography-title1-weight);
+  letter-spacing: var(--on-typography-title1-letter-spacing);
+}
+
+@utility text-title2 {
+  font-size: var(--on-typography-title2-size);
+  line-height: var(--on-typography-title2-line-height);
+  font-weight: var(--on-typography-title2-weight);
+  letter-spacing: var(--on-typography-title2-letter-spacing);
+}
+
+@utility text-headline {
+  font-size: var(--on-typography-headline-size);
+  line-height: var(--on-typography-headline-line-height);
+  font-weight: var(--on-typography-headline-weight);
+  letter-spacing: var(--on-typography-headline-letter-spacing);
+}
+
+@utility text-stat {
+  font-size: var(--on-typography-stat-value-size);
+  line-height: var(--on-typography-stat-value-line-height);
+  font-weight: var(--on-typography-stat-value-weight);
+  letter-spacing: var(--on-typography-stat-value-letter-spacing);
+}
+
+@utility text-body {
+  font-size: var(--on-typography-body-size);
+  line-height: var(--on-typography-body-line-height);
+  font-weight: var(--on-typography-body-weight);
+  letter-spacing: 0;
+}
+
+@utility text-body-sm {
+  font-size: var(--on-typography-body-sm-size);
+  line-height: var(--on-typography-body-sm-line-height);
+  font-weight: var(--on-typography-body-sm-weight);
+  letter-spacing: 0;
+}
+
+@utility text-caption {
+  font-size: var(--on-typography-caption-size);
+  line-height: var(--on-typography-caption-line-height);
+  font-weight: var(--on-typography-caption-weight);
+  letter-spacing: 0;
+}
+
+@utility text-label {
+  font-size: var(--on-typography-label-size);
+  line-height: var(--on-typography-label-line-height);
+  font-weight: var(--on-typography-label-weight);
+  letter-spacing: var(--on-typography-label-letter-spacing);
+  text-transform: var(--on-typography-label-text-transform);
+}
+
+@utility text-mono {
+  font-size: var(--on-typography-mono-size);
+  line-height: var(--on-typography-mono-line-height);
+  font-weight: var(--on-typography-mono-weight);
+  letter-spacing: 0;
+  font-family: var(--on-font-family-mono);
+}

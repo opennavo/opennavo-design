@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Очистить",
+    "retry": "Повторить"
+  },
+  "chart": {
+    "other": "Другое",
+    "item": "Пункт",
+    "value": "Значение",
+    "share": "Доля",
+    "tooltip": "{label}: {value}",
+    "tooltipShare": "{label}: {value} ({share})"
+  },
+  "dialog": {
+    "close": "Закрыть",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "hero": {
+    "action": "Начать",
+    "viewDetails": "Подробнее"
+  },
+  "log": {
+    "label": "Журнал"
+  },
+  "menu": {
+    "more": "Другие действия"
+  },
+  "nav": {
+    "breadcrumb": "Хлебные крошки",
+    "pagination": "Пагинация",
+    "previous": "Предыдущая страница",
+    "next": "Следующая страница",
+    "page": "Страница {page}"
+  },
+  "palette": {
+    "label": "Панель команд",
+    "placeholder": "Поиск и команды",
+    "results": "Результаты поиска",
+    "empty": "Совпадений не найдено",
+    "loading": "Поиск…",
+    "hintSelect": "↑↓ Выбрать",
+    "hintOpen": "↵ Открыть"
+  },
+  "progress": {
+    "busy": "Выполняется"
+  },
+  "state": {
+    "loadFailedTitle": "Не удалось загрузить",
+    "loadFailedDescription": "Сеть или сервис временно недоступны. Повторите попытку позже.",
+    "offlineTitle": "Нет подключения к сети",
+    "offlineDescription": "Показано сохранённое содержимое. Оно обновится автоматически после подключения к сети."
+  },
+  "table": {
+    "sortBy": "Сортировать по: {label}"
+  },
+  "toast": {
+    "region": "Уведомления",
+    "close": "Закрыть уведомление"
+  },
+  "topNav": {
+    "label": "Основная навигация",
+    "home": "Главная страница {name}",
+    "search": "Поиск",
+    "download": "Загрузить приложение",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Borrar",
+    "retry": "Reintentar"
+  },
+  "chart": {
+    "other": "Otros",
+    "item": "Elemento",
+    "value": "Valor",
+    "share": "Porcentaje",
+    "tooltip": "{label}: {value}",
+    "tooltipShare": "{label}: {value} ({share})"
+  },
+  "dialog": {
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "hero": {
+    "action": "Empezar",
+    "viewDetails": "Ver detalles"
+  },
+  "log": {
+    "label": "Registro"
+  },
+  "menu": {
+    "more": "Más acciones"
+  },
+  "nav": {
+    "breadcrumb": "Migas de pan",
+    "pagination": "Paginación",
+    "previous": "Página anterior",
+    "next": "Página siguiente",
+    "page": "Página {page}"
+  },
+  "palette": {
+    "label": "Panel de comandos",
+    "placeholder": "Buscar o ejecutar una acción",
+    "results": "Resultados de búsqueda",
+    "empty": "No hay resultados coincidentes",
+    "loading": "Buscando…",
+    "hintSelect": "↑↓ Seleccionar",
+    "hintOpen": "↵ Abrir"
+  },
+  "progress": {
+    "busy": "En curso"
+  },
+  "state": {
+    "loadFailedTitle": "Error al cargar",
+    "loadFailedDescription": "La red o el servicio no están disponibles temporalmente. Inténtalo de nuevo más tarde.",
+    "offlineTitle": "Sin conexión",
+    "offlineDescription": "Se muestra el contenido guardado. Se actualizará automáticamente al conectarse a Internet."
+  },
+  "table": {
+    "sortBy": "Ordenar por {label}"
+  },
+  "toast": {
+    "region": "Notificaciones",
+    "close": "Cerrar notificación"
+  },
+  "topNav": {
+    "label": "Navegación principal",
+    "home": "Página de inicio de {name}",
+    "search": "Buscar",
+    "download": "Descargar la app",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  }
+}

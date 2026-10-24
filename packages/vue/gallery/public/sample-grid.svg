@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="grid-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#363A44"/>
+      <stop offset="1" stop-color="#15171C"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#grid-bg)"/>
+  <g fill="#D9DCE3">
+    <rect x="262" y="262" width="140" height="140" rx="36"/>
+    <rect x="442" y="262" width="140" height="140" rx="36"/>
+    <rect x="622" y="262" width="140" height="140" rx="36" fill-opacity="0.45"/>
+    <rect x="262" y="442" width="140" height="140" rx="36"/>
+    <rect x="442" y="442" width="140" height="140" rx="36" fill="#FF7356"/>
+    <rect x="622" y="442" width="140" height="140" rx="36"/>
+    <rect x="262" y="622" width="140" height="140" rx="36" fill-opacity="0.45"/>
+    <rect x="442" y="622" width="140" height="140" rx="36"/>
+    <rect x="622" y="622" width="140" height="140" rx="36"/>
+  </g>
+</svg>

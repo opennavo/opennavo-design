@@ -1,0 +1,25 @@
+{
+  "name": "example-react-tailwind",
+  "private": true,
+  "description": "OpenNavo Design tokens in a React + Tailwind CSS v4 app (no Vue components).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 6107",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opennavo/design-tokens": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
+}

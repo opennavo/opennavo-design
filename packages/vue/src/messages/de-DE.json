@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Eingabe löschen",
+    "retry": "Erneut versuchen"
+  },
+  "chart": {
+    "other": "Sonstige",
+    "item": "Eintrag",
+    "value": "Wert",
+    "share": "Anteil",
+    "tooltip": "{label}: {value}",
+    "tooltipShare": "{label}: {value} ({share})"
+  },
+  "dialog": {
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen"
+  },
+  "hero": {
+    "action": "Loslegen",
+    "viewDetails": "Details ansehen"
+  },
+  "log": {
+    "label": "Protokoll"
+  },
+  "menu": {
+    "more": "Weitere Aktionen"
+  },
+  "nav": {
+    "breadcrumb": "Navigationspfad",
+    "pagination": "Seitennavigation",
+    "previous": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "page": "Seite {page}"
+  },
+  "palette": {
+    "label": "Befehlspalette",
+    "placeholder": "Suchen oder Aktion ausführen",
+    "results": "Suchergebnisse",
+    "empty": "Keine passenden Ergebnisse",
+    "loading": "Suche läuft …",
+    "hintSelect": "↑↓ Auswählen",
+    "hintOpen": "↵ Öffnen"
+  },
+  "progress": {
+    "busy": "In Arbeit"
+  },
+  "state": {
+    "loadFailedTitle": "Laden fehlgeschlagen",
+    "loadFailedDescription": "Das Netzwerk oder der Dienst ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut.",
+    "offlineTitle": "Offline",
+    "offlineDescription": "Angezeigt werden gespeicherte Inhalte. Sie werden automatisch aktualisiert, sobald Sie wieder online sind."
+  },
+  "table": {
+    "sortBy": "Nach {label} sortieren"
+  },
+  "toast": {
+    "region": "Mitteilungen",
+    "close": "Mitteilung schließen"
+  },
+  "topNav": {
+    "label": "Hauptnavigation",
+    "home": "Startseite von {name}",
+    "search": "Suchen",
+    "download": "Download",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  }
+}

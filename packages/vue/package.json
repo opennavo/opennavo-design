@@ -1,0 +1,55 @@
+{
+  "name": "@opennavo/design-vue",
+  "version": "0.1.0",
+  "description": "OpenNavo Design Vue 3 components: buttons, inputs, data display, overlays and app layout, styled with the OpenNavo Design tokens in dark and light themes and localized in ten languages.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opennavo/opennavo-design.git",
+    "directory": "packages/vue"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "COMPONENTS.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./base.css": "./src/styles/base.css",
+    "./system-fonts.css": "./src/styles/system-fonts.css",
+    "./theme": "./src/utils/theme.ts"
+  },
+  "scripts": {
+    "gen": "node scripts/icons.ts",
+    "check": "node scripts/icons.ts --check",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "gallery": "vite gallery --port 6106 --strictPort",
+    "build:gallery": "vite build gallery"
+  },
+  "dependencies": {
+    "@opennavo/design-tokens": "workspace:*"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "catalog:",
+    "@iconify-json/lucide": "catalog:",
+    "@iconify/types": "catalog:",
+    "@iconify/utils": "catalog:",
+    "@types/node": "catalog:",
+    "@unocss/reset": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vue/test-utils": "catalog:",
+    "jsdom": "catalog:",
+    "typescript": "catalog:",
+    "unocss": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  }
+}

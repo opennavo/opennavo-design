@@ -1,0 +1,1083 @@
+{
+  "$description": "OpenNavo Design Tokens, light theme. Generated from tokens/tokens.json; do not edit.",
+  "color": {
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "#F2F2F2",
+        "$description": "Outer web and window background."
+      },
+      "base": {
+        "$type": "color",
+        "$value": "#F8F8F8",
+        "$description": "Main content background."
+      },
+      "sidebar": {
+        "$type": "color",
+        "$value": "#F1F1F1",
+        "$description": "Desktop sidebar."
+      },
+      "rail": {
+        "$type": "color",
+        "$value": "#F5F5F5",
+        "$description": "Right rail with summaries and secondary actions."
+      },
+      "card": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Cards."
+      },
+      "cardAlt": {
+        "$type": "color",
+        "$value": "#F5F5F5",
+        "$description": "Inputs and secondary blocks within cards."
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "#EDEDED",
+        "$description": "Hover, selection, icon tiles; darker than cards in light mode, so floating panels use popover."
+      },
+      "chip": {
+        "$type": "color",
+        "$value": "#EBEBEB",
+        "$description": "Neutral badge background."
+      },
+      "control": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Inputs, tooltips, and secondary controls."
+      },
+      "inset": {
+        "$type": "color",
+        "$value": "#F0F0F0",
+        "$description": "Code blocks, logs, segmented-control tracks."
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "#FFFFFFF0",
+        "$description": "Overlays with backdrop-filter: blur(20px)."
+      },
+      "popover": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Floating panels and notices over content, such as consent and suggestion cards."
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "#00000014",
+        "$description": "Card borders and dividers."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "#00000021",
+        "$description": "Input, ghost-button, and window borders."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "#00000038",
+        "$description": "Hover borders."
+      },
+      "sidebar": {
+        "$type": "color",
+        "$value": "#E5E5E5",
+        "$description": "Sidebar right border."
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "#1A1A1A",
+        "$description": "Headings, emphasized body text, numbers (14.9:1 on dark cards, 17.4:1 on light cards)."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#575757",
+        "$description": "Body text and descriptions (7.3:1 on dark cards, 7.2:1 on light cards)."
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "#6B6B6B",
+        "$description": "Secondary information, labels, times (5.4:1 on dark cards, 4.7:1 on dark raised; 5.3:1 and 4.6:1 in light mode)."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#A6A6A6",
+        "$description": "Disabled/decorative only; never convey essential information."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on solid fills (status, coral, salmon); dark in dark mode, white in light mode."
+      },
+      "onAccent": {
+        "$type": "color",
+        "$value": "#1B0A05",
+        "$description": "Text on coral buttons/badges (7.2:1)."
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#B83A15",
+        "$description": "Coral text, links, and icons; brand.coral is for fills and graphics (light mode needs a darker shade for 4.5:1)."
+      }
+    },
+    "brand": {
+      "coral": {
+        "$type": "color",
+        "$value": "#EE5533",
+        "$description": "Primary brand color for fills and graphics: logo, progress, badges, emphasized buttons. For coral text use text.accent."
+      },
+      "salmon": {
+        "$type": "color",
+        "$value": "#A74C1B",
+        "$description": "Emphasized text: hero second line, badges, available updates."
+      },
+      "violet": {
+        "$type": "color",
+        "$value": "#5B5BD6",
+        "$description": "Primary hero glow color."
+      },
+      "glowCore": {
+        "$type": "color",
+        "$value": "#CDCDFF",
+        "$description": "Glow center highlight."
+      },
+      "logoGradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFB347",
+            "position": 0
+          },
+          {
+            "color": "#FF7356",
+            "position": 0.5
+          },
+          {
+            "color": "#FF4E3A",
+            "position": 1
+          }
+        ],
+        "$description": "Logo N gradient, top-left to bottom-right."
+      },
+      "logoCoreGradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFB347",
+            "position": 0
+          },
+          {
+            "color": "#FF8F3F",
+            "position": 1
+          }
+        ],
+        "$description": "Logo Polaris gradient on dark backgrounds."
+      },
+      "logoCoreGradientOnLight": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFB347",
+            "position": 0
+          },
+          {
+            "color": "#FF8F3F",
+            "position": 1
+          }
+        ],
+        "$description": "Logo Polaris gradient on light backgrounds; warm white would disappear."
+      }
+    },
+    "accent": {
+      "coralSubtle": {
+        "$type": "color",
+        "$value": "#EE55331A",
+        "$description": "Progress tracks and Updating badges."
+      },
+      "salmonSubtle": {
+        "$type": "color",
+        "$value": "#A74C1B1A",
+        "$description": "Badge and available-update backgrounds."
+      }
+    },
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "#187733",
+        "$description": "Installed, success, current."
+      },
+      "successSubtle": {
+        "$type": "color",
+        "$value": "#1877331A"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#965A00",
+        "$description": "Warnings and administrator permission required."
+      },
+      "warningSubtle": {
+        "$type": "color",
+        "$value": "#965A001A"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#C22B21",
+        "$description": "Failure, deprecated, delete."
+      },
+      "dangerSubtle": {
+        "$type": "color",
+        "$value": "#C22B211A"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#1564CD",
+        "$description": "Self-updating, links, information."
+      },
+      "infoSubtle": {
+        "$type": "color",
+        "$value": "#1564CD1A"
+      },
+      "successBorder": {
+        "$type": "color",
+        "$value": "#1877333D",
+        "$description": "Border of panels tinted with successSubtle."
+      },
+      "warningBorder": {
+        "$type": "color",
+        "$value": "#965A003D",
+        "$description": "Border of panels tinted with warningSubtle."
+      },
+      "dangerBorder": {
+        "$type": "color",
+        "$value": "#C22B213D",
+        "$description": "Border of panels tinted with dangerSubtle."
+      },
+      "infoBorder": {
+        "$type": "color",
+        "$value": "#1564CD3D",
+        "$description": "Border of panels tinted with infoSubtle."
+      }
+    },
+    "button": {
+      "primaryBg": {
+        "$type": "color",
+        "$value": "#1F1F1F"
+      },
+      "primaryHover": {
+        "$type": "color",
+        "$value": "#333333"
+      },
+      "primaryPressed": {
+        "$type": "color",
+        "$value": "#0A0A0A"
+      },
+      "primaryText": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "secondaryBg": {
+        "$type": "color",
+        "$value": "#EBEBEB"
+      },
+      "secondaryHover": {
+        "$type": "color",
+        "$value": "#E0E0E0"
+      },
+      "secondaryPressed": {
+        "$type": "color",
+        "$value": "#D6D6D6"
+      },
+      "secondaryText": {
+        "$type": "color",
+        "$value": "#1A1A1A"
+      },
+      "accentBg": {
+        "$type": "color",
+        "$value": "#EE5533"
+      },
+      "accentHover": {
+        "$type": "color",
+        "$value": "#F46546"
+      },
+      "accentPressed": {
+        "$type": "color",
+        "$value": "#E24A28"
+      },
+      "accentText": {
+        "$type": "color",
+        "$value": "#1B0A05"
+      },
+      "disabledBg": {
+        "$type": "color",
+        "$value": "#F0F0F0"
+      },
+      "disabledText": {
+        "$type": "color",
+        "$value": "#A6A6A6"
+      }
+    },
+    "chart": {
+      "series1": {
+        "$type": "color",
+        "$value": "#6A61E8",
+        "$description": "Category color 1, violet."
+      },
+      "series2": {
+        "$type": "color",
+        "$value": "#D9572E",
+        "$description": "Category color 2, coral."
+      },
+      "series3": {
+        "$type": "color",
+        "$value": "#168A62",
+        "$description": "Category color 3, cyan; all three checked for color-blind accessibility/contrast on #1A1A1A."
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "#D0602A",
+        "$description": "Single-series emphasis, current period."
+      },
+      "deemphasis": {
+        "$type": "color",
+        "$value": "#CFCFCF",
+        "$description": "Single-series de-emphasis, historical period."
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "#EBEBEB"
+      },
+      "axis": {
+        "$type": "color",
+        "$value": "#D6D6D6"
+      }
+    },
+    "component": {
+      "searchBg": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Search-field and form-input background."
+      },
+      "cardHover": {
+        "$type": "color",
+        "$value": "#FAFAFA",
+        "$description": "Interactive card hover background."
+      },
+      "toggleTrack": {
+        "$type": "color",
+        "$value": "#D9D9D9",
+        "$description": "Off toggle track."
+      },
+      "toggleKnob": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Off toggle thumb."
+      },
+      "toggleKnobOn": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "On toggle thumb."
+      },
+      "tabIndicator": {
+        "$type": "color",
+        "$value": "#1A1A1A",
+        "$description": "Selected-tab indicator."
+      },
+      "navActive": {
+        "$type": "color",
+        "$value": "#E3E3E3",
+        "$description": "Selected sidebar navigation background."
+      },
+      "heroBg": {
+        "$type": "color",
+        "$value": "#F4F3FD",
+        "$description": "Featured hero card background."
+      },
+      "captionBg": {
+        "$type": "color",
+        "$value": "#0000008C",
+        "$description": "Screenshot lower-left caption background; dark in both themes, so the caption renders in the dark theme (data-theme='dark')."
+      },
+      "topNavScrolled": {
+        "$type": "color",
+        "$value": "#F2F2F2D9",
+        "$description": "Scrolled web navigation background: surface.page at 85% with backdrop-filter: blur(20px)."
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "#0000004D",
+        "$description": "Dialog/sheet backdrop."
+      },
+      "lightboxScrim": {
+        "$type": "color",
+        "$value": "#000000E0",
+        "$description": "Screenshot lightbox backdrop; dark in both themes, so the lightbox renders in the dark theme (data-theme='dark')."
+      },
+      "modalBg": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Dialog/sheet panel background."
+      },
+      "toastBg": {
+        "$type": "color",
+        "$value": "#FFFFFFF0",
+        "$description": "Toast background with backdrop-filter: blur(20px)."
+      },
+      "itemActive": {
+        "$type": "color",
+        "$value": "#0000000F",
+        "$description": "Current menu/command-palette item background."
+      },
+      "runningBorder": {
+        "$type": "color",
+        "$value": "#EE553366",
+        "$description": "Active-task card border, coral at 25%."
+      },
+      "logHeading": {
+        "$type": "color",
+        "$value": "#1A1A1A",
+        "$description": "Log step lines beginning with ==>."
+      },
+      "logSuccess": {
+        "$type": "color",
+        "$value": "#187733",
+        "$description": "Successful log lines."
+      },
+      "monoText": {
+        "$type": "color",
+        "$value": "#333333",
+        "$description": "Monospace table text, such as versions."
+      },
+      "timelineLine": {
+        "$type": "color",
+        "$value": "#D6D6D6",
+        "$description": "Timeline line start, fading through surface.raised to transparent."
+      },
+      "timelineDot": {
+        "$type": "color",
+        "$value": "#C4C4C4",
+        "$description": "Normal timeline entry dots."
+      },
+      "sourceMeta": {
+        "$type": "color",
+        "$value": "#B0B0B0",
+        "$description": "Auxiliary-source dots, such as GitHub metadata in release sources."
+      },
+      "collectionFrom": {
+        "$type": "color",
+        "$value": "#F1EEFB",
+        "$description": "Collection card gradient start, 160°."
+      },
+      "collectionTo": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Collection card gradient end at 70%."
+      },
+      "collectionRing": {
+        "$type": "color",
+        "$value": "#F8F7FD",
+        "$description": "Collection stacked-icon border."
+      },
+      "detailHeaderBg": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Detail header card background beneath glow."
+      },
+      "cliIconFrom": {
+        "$type": "color",
+        "$value": "#2A2A2A",
+        "$description": "Command-line tile gradient start."
+      },
+      "cliIconTo": {
+        "$type": "color",
+        "$value": "#1B1B1B",
+        "$description": "Command-line tile gradient end."
+      },
+      "cliIconText": {
+        "$type": "color",
+        "$value": "#E2E2E2",
+        "$description": "Command-line tile text."
+      },
+      "letterIconText": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Letter-tile text, decorative because names always appear alongside."
+      },
+      "segmentActive": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Selected segment of a segmented control."
+      },
+      "menuBarBg": {
+        "$type": "color",
+        "$value": "#F6F6F6F5",
+        "$description": "In-app preview of the macOS menu bar strip."
+      },
+      "menuBarText": {
+        "$type": "color",
+        "$value": "#1F1F1F",
+        "$description": "Menu bar preview items, drawn like AppKit template images."
+      }
+    },
+    "macos": {
+      "close": {
+        "$type": "color",
+        "$value": "#FF5F57"
+      },
+      "minimize": {
+        "$type": "color",
+        "$value": "#FEBC2E"
+      },
+      "zoom": {
+        "$type": "color",
+        "$value": "#28C840"
+      }
+    }
+  },
+  "shadow": {
+    "window": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#00000029",
+          "offsetX": "0px",
+          "offsetY": "40px",
+          "blur": "100px",
+          "spread": "0px"
+        },
+        {
+          "color": "#00000029",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0.5px"
+        }
+      ]
+    },
+    "popover": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#0000001F",
+          "offsetX": "0px",
+          "offsetY": "12px",
+          "blur": "40px",
+          "spread": "0px"
+        },
+        {
+          "color": "#0000000A",
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "6px",
+          "spread": "0px"
+        }
+      ]
+    },
+    "modal": {
+      "$type": "shadow",
+      "$value": {
+        "color": "#00000029",
+        "offsetX": "0px",
+        "offsetY": "24px",
+        "blur": "64px",
+        "spread": "0px"
+      }
+    },
+    "toast": {
+      "$type": "shadow",
+      "$value": {
+        "color": "#0000001F",
+        "offsetX": "0px",
+        "offsetY": "10px",
+        "blur": "30px",
+        "spread": "0px"
+      }
+    },
+    "floatIcon": {
+      "$type": "shadow",
+      "$value": {
+        "color": "#00000029",
+        "offsetX": "0px",
+        "offsetY": "14px",
+        "blur": "28px",
+        "spread": "0px"
+      }
+    },
+    "appIcon": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#0000001A",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0.5px",
+          "inset": true
+        },
+        {
+          "color": "#0000001F",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px"
+        }
+      ]
+    },
+    "iconText": {
+      "$type": "shadow",
+      "$value": {
+        "color": "#0000004D",
+        "offsetX": "0px",
+        "offsetY": "1px",
+        "blur": "2px",
+        "spread": "0px"
+      },
+      "$description": "Letter-tile shadow preserves readability on light backgrounds."
+    },
+    "focusRing": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#FFFFFF",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "2px"
+        },
+        {
+          "color": "#EE5533",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "4px"
+        }
+      ],
+      "$description": "Keyboard focus ring: 2 px gap plus 2 px coral (3.5:1 against white in light mode)."
+    },
+    "segment": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#0000001A",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px"
+        },
+        {
+          "color": "#00000014",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0.5px"
+        }
+      ],
+      "$description": "Selected segment lift; none (a transparent shadow) in dark mode."
+    },
+    "knob": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "#00000038",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px"
+        },
+        {
+          "color": "#00000014",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0.5px"
+        }
+      ],
+      "$description": "Toggle knob lift; the white knob needs it on the light track."
+    }
+  },
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "0.5": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "1.5": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "2.5": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "3.5": {
+      "$type": "dimension",
+      "$value": "14px"
+    }
+  },
+  "radius": {
+    "tiny": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "7px"
+    },
+    "default": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "panel": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Screenshot cards, menus, overlays."
+    },
+    "big": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "huge": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px"
+    },
+    "appIcon": {
+      "$type": "dimension",
+      "$value": "23%",
+      "$description": "App icon radius: 23% of side length, approximating macOS superellipses."
+    }
+  },
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Inter Variable",
+          "Inter",
+          "PingFang SC",
+          "Hiragino Sans GB",
+          "Microsoft YaHei",
+          "Noto Sans SC",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Helvetica Neue",
+          "sans-serif"
+        ]
+      },
+      "sansZh": {
+        "$type": "fontFamily",
+        "$value": [
+          "Inter Variable",
+          "Inter",
+          "PingFang SC",
+          "Hiragino Sans GB",
+          "Microsoft YaHei",
+          "Noto Sans SC",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Helvetica Neue",
+          "sans-serif"
+        ]
+      },
+      "sansJa": {
+        "$type": "fontFamily",
+        "$value": [
+          "Inter Variable",
+          "Inter",
+          "Hiragino Sans",
+          "Hiragino Kaku Gothic ProN",
+          "Yu Gothic",
+          "Noto Sans JP",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Helvetica Neue",
+          "sans-serif"
+        ]
+      },
+      "mono": {
+        "$type": "fontFamily",
+        "$value": [
+          "SF Mono",
+          "JetBrains Mono",
+          "ui-monospace",
+          "Menlo",
+          "Consolas",
+          "Liberation Mono",
+          "monospace"
+        ]
+      }
+    }
+  },
+  "typography": {
+    "hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "76px",
+        "fontWeight": 600,
+        "lineHeight": 1.026,
+        "letterSpacing": "-0.035em"
+      },
+      "$description": "Web homepage hero heading"
+    },
+    "section": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "46px",
+        "fontWeight": 600,
+        "lineHeight": 1.087,
+        "letterSpacing": "-0.03em"
+      },
+      "$description": "Web section heading"
+    },
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.03em"
+      },
+      "$description": "Featured hero heading"
+    },
+    "title1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": 1.214,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Page heading"
+    },
+    "title2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "22px",
+        "fontWeight": 600,
+        "lineHeight": 1.273,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Dialog title and compact detail header"
+    },
+    "headline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": "-0.01em"
+      },
+      "$description": "Section heading"
+    },
+    "statValue": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.015em"
+      },
+      "$description": "Statistics values with proportional numerals"
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.571,
+        "letterSpacing": "0em"
+      },
+      "$description": "Body text"
+    },
+    "bodySm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.538,
+        "letterSpacing": "0em"
+      },
+      "$description": "List and table body text"
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0em"
+      },
+      "$description": "Secondary information"
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "11px",
+        "fontWeight": 600,
+        "lineHeight": 1.455,
+        "letterSpacing": "0.08em"
+      },
+      "$description": "Group labels, such as sidebar section titles"
+    },
+    "mono": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.mono}",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0em"
+      },
+      "$description": "Commands, versions, and logs"
+    }
+  },
+  "motion": {
+    "duration": {
+      "fast": {
+        "$type": "duration",
+        "$value": "120ms"
+      },
+      "base": {
+        "$type": "duration",
+        "$value": "200ms"
+      },
+      "slow": {
+        "$type": "duration",
+        "$value": "320ms"
+      }
+    },
+    "easing": {
+      "standard": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.2,
+          0.8,
+          0.2,
+          1
+        ]
+      },
+      "emphasized": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.3,
+          0,
+          0,
+          1
+        ]
+      },
+      "exit": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.4,
+          0,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "zIndex": {
+    "base": {
+      "$type": "number",
+      "$value": 0
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": 10
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 100
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 200
+    },
+    "modal": {
+      "$type": "number",
+      "$value": 300
+    },
+    "popover": {
+      "$type": "number",
+      "$value": 400
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 500
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": 600
+    }
+  }
+}

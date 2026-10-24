@@ -1,0 +1,30 @@
+{
+  "name": "opennavo-design",
+  "private": true,
+  "description": "OpenNavo Design: the design system behind OpenNavo, with tokens for the web, Flutter and SwiftUI and Vue components.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "gen": "pnpm --filter @opennavo/design-tokens gen && pnpm --filter @opennavo/design-vue gen",
+    "check": "pnpm --filter @opennavo/design-tokens check && pnpm --filter @opennavo/design-vue check",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "build": "pnpm -r --if-present build",
+    "gallery": "pnpm --filter @opennavo/design-vue gallery",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "secrets:worktree": "node scripts/check-secrets.mjs worktree",
+    "secrets:staged": "node scripts/check-secrets.mjs staged",
+    "secrets:history": "node scripts/check-secrets.mjs history",
+    "test:security": "node --test scripts/tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "oxfmt": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=10 <11"
+  },
+  "packageManager": "pnpm@10.13.1"
+}

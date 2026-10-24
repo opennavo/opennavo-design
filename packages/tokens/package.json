@@ -1,0 +1,53 @@
+{
+  "name": "@opennavo/design-tokens",
+  "version": "0.1.0",
+  "description": "OpenNavo Design tokens: CSS variables for dark and light themes, a UnoCSS preset, Tailwind CSS v4 theme and v3 preset, typed values and DTCG files, all generated from tokens/tokens.json.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opennavo/opennavo-design.git",
+    "directory": "packages/tokens"
+  },
+  "files": [
+    "dist",
+    "src",
+    "css"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/tokens.ts",
+    "./tokens.css": "./dist/tokens.css",
+    "./base.css": "./css/base.css",
+    "./system-fonts.css": "./css/system-fonts.css",
+    "./uno-preset": "./dist/uno-preset.ts",
+    "./tailwind.css": "./dist/tailwind.css",
+    "./tailwind-preset": "./dist/tailwind-preset.ts",
+    "./theme": "./src/theme.ts",
+    "./tokens.json": "./dist/tokens.json",
+    "./dtcg/dark.tokens.json": "./dist/dtcg/dark.tokens.json",
+    "./dtcg/light.tokens.json": "./dist/dtcg/light.tokens.json",
+    "./build": "./src/build.ts",
+    "./contrast": "./src/contrast.ts"
+  },
+  "scripts": {
+    "gen": "node scripts/generate.ts",
+    "check": "node scripts/generate.ts --check",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "unocss": "catalog:",
+    "vitest": "catalog:"
+  },
+  "peerDependencies": {
+    "unocss": ">=66"
+  },
+  "peerDependenciesMeta": {
+    "unocss": {
+      "optional": true
+    }
+  }
+}

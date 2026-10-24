@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "Cancella",
+    "retry": "Riprova"
+  },
+  "chart": {
+    "other": "Altro",
+    "item": "Elemento",
+    "value": "Valore",
+    "share": "Percentuale",
+    "tooltip": "{label}: {value}",
+    "tooltipShare": "{label}: {value} ({share})"
+  },
+  "dialog": {
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "cancel": "Annulla"
+  },
+  "hero": {
+    "action": "Inizia",
+    "viewDetails": "Mostra dettagli"
+  },
+  "log": {
+    "label": "Registro"
+  },
+  "menu": {
+    "more": "Altre azioni"
+  },
+  "nav": {
+    "breadcrumb": "Percorso di navigazione",
+    "pagination": "Paginazione",
+    "previous": "Pagina precedente",
+    "next": "Pagina successiva",
+    "page": "Pagina {page}"
+  },
+  "palette": {
+    "label": "Riquadro comandi",
+    "placeholder": "Cerca o esegui un’azione",
+    "results": "Risultati",
+    "empty": "Nessun risultato corrispondente",
+    "loading": "Ricerca in corso…",
+    "hintSelect": "↑↓ Seleziona",
+    "hintOpen": "↵ Apri"
+  },
+  "progress": {
+    "busy": "In corso"
+  },
+  "state": {
+    "loadFailedTitle": "Impossibile caricare",
+    "loadFailedDescription": "La rete o il servizio non sono al momento disponibili. Riprova più tardi.",
+    "offlineTitle": "Offline",
+    "offlineDescription": "Stai vedendo i contenuti salvati. Si aggiorneranno automaticamente quando tornerai online."
+  },
+  "table": {
+    "sortBy": "Ordina per {label}"
+  },
+  "toast": {
+    "region": "Notifiche",
+    "close": "Chiudi notifica"
+  },
+  "topNav": {
+    "label": "Menu principale",
+    "home": "Home di {name}",
+    "search": "Cerca",
+    "download": "Scarica l’app",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  }
+}

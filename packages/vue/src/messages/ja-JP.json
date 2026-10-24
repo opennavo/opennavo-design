@@ -1,0 +1,69 @@
+{
+  "action": {
+    "clear": "クリア",
+    "retry": "再試行"
+  },
+  "chart": {
+    "other": "その他",
+    "item": "項目",
+    "value": "値",
+    "share": "割合",
+    "tooltip": "{label}：{value}",
+    "tooltipShare": "{label}：{value}（{share}）"
+  },
+  "dialog": {
+    "close": "閉じる",
+    "confirm": "確認",
+    "cancel": "キャンセル"
+  },
+  "hero": {
+    "action": "はじめる",
+    "viewDetails": "詳細を見る"
+  },
+  "log": {
+    "label": "ログ"
+  },
+  "menu": {
+    "more": "その他の操作"
+  },
+  "nav": {
+    "breadcrumb": "パンくずリスト",
+    "pagination": "ページネーション",
+    "previous": "前のページ",
+    "next": "次のページ",
+    "page": "{page} ページ目"
+  },
+  "palette": {
+    "label": "コマンドパレット",
+    "placeholder": "検索または操作を実行",
+    "results": "検索結果",
+    "empty": "一致する結果はありません",
+    "loading": "検索中…",
+    "hintSelect": "↑↓ 選択",
+    "hintOpen": "↵ 開く"
+  },
+  "progress": {
+    "busy": "進行中"
+  },
+  "state": {
+    "loadFailedTitle": "読み込みに失敗しました",
+    "loadFailedDescription": "ネットワークまたはサービスを一時的に利用できません。しばらくしてから再試行してください。",
+    "offlineTitle": "オフラインです",
+    "offlineDescription": "保存済みの内容を表示しています。オンラインになると自動で更新します。"
+  },
+  "table": {
+    "sortBy": "{label}で並べ替え"
+  },
+  "toast": {
+    "region": "通知",
+    "close": "通知を閉じる"
+  },
+  "topNav": {
+    "label": "メインナビゲーション",
+    "home": "{name} ホーム",
+    "search": "検索",
+    "download": "クライアントをダウンロード",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  }
+}

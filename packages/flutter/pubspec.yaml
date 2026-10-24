@@ -1,0 +1,17 @@
+name: opennavo_design
+description: OpenNavo Design for Flutter — design tokens (dark and light) and a ThemeData builder.
+version: 0.1.0
+repository: https://github.com/opennavo/opennavo-design
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
